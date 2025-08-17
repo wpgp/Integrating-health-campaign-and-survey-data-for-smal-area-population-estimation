@@ -1,6 +1,6 @@
 #-----------------------------------------------------------------------------
 # Adjustment factor-based small area population modelling - SIMULATION STUDY
-# Developer: Dr Chris Nnanatu, WOrldPop, University of Southampton
+# Developer: Dr Chris Nnanatu, WorldPop, University of Southampton
 # February, 2025
 #----------------------------------------------------------------------------
 rm(list=ls()) #----Clear the workspace
@@ -1547,3 +1547,4 @@ rrmse
 ggarrange(rmae, rrmse,nrow = 2, ncol=1)
 
 save.image(paste0(out_path,"/HL_sim_study.Rdata"))
+

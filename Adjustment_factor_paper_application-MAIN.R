@@ -1,6 +1,6 @@
 #-----------------------------------------------------------------------------
 #  Ratio-based Bayesian hierarchical population modelling - DRC Application
-#  Developer: Dr Chris Nnanatu, WOrldPop, University of Southampton
+#  Developer: Dr Chris Nnanatu, WorldPop, University of Southampton
 # February, 2025
 #----------------------------------------------------------------------------
 rm(list=ls()) #----Clear the workspace
@@ -1678,3 +1678,4 @@ plot(hl_grd.count_scCV, main="Gridded population - count scaled",
 
 
 save.image(paste0(results_path, "/adjustment_factor_Haut-Lomami_example.Rdata"))
+
